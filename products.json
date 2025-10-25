@@ -1,11 +1,11 @@
 [
   {
-    "id": "tobacco-vanille-candle",              
+    "id": "tobacco-vanille-candle",
     "name": "Tobacco Vanille Candle",
     "url": "https://kena-lean-launch.webflow.io/product-page?slug=tobacco-vanille-candle",
     "price": 35.00,
-    "image": "https://cdn.yoursite.com/img/tobacco-vanille-hero.jpg",
-    "description": "Coconut-soy candle. Notes: tobacco leaf, vanilla, spice.",
+    "image": "",
+    "description": "Coconut–soy candle with tobacco leaf, vanilla, spice.",
     "stackable": true,
     "shippable": true,
     "taxable": true,
@@ -13,7 +13,7 @@
     "metadata": {
       "slug": "tobacco-vanille-candle",
       "sanityId": "prod_abc123",
-      "fulfillmentType": "manual"               
+      "fulfillmentType": "manual"
     }
   },
   {
@@ -21,21 +21,63 @@
     "name": "Hustle Coffee Mug",
     "url": "https://kena-lean-launch.webflow.io/product-page?slug=hustle-coffee-mug",
     "price": 18.00,
-    "image": "https://cdn.yoursite.com/img/hustle-mug-hero.jpg",
+    "image": "",
     "description": "11oz ceramic mug.",
     "stackable": true,
     "shippable": true,
     "taxable": true,
-    "variants": [
-      { "id": "mug-11oz", "name": "11 oz", "price": 18.00,
-        "metadata": { "printfulVariantId": "10516680", "fulfillmentType": "printful" } },
-      { "id": "mug-15oz", "name": "15 oz", "price": 22.00,
-        "metadata": { "printfulVariantId": "10516681", "fulfillmentType": "printful" } }
-    ],
     "metadata": {
       "slug": "hustle-coffee-mug",
       "sanityId": "prod_def456",
-      "fulfillmentType": "printful"             
+      "fulfillmentType": "printful"
+    }
+  },
+  {
+    "id": "pegasus-candle",
+    "name": "Pegasus Candle",
+    "url": "https://kena-lean-launch.webflow.io/product-page?slug=pegasus-candle",
+    "price": 40.00,
+    "image": "",
+    "description": "Coconut–soy candle inspired by Pegasus.",
+    "stackable": true,
+    "shippable": true,
+    "taxable": true,
+    "maxQuantity": 10,
+    "metadata": {
+      "slug": "pegasus-candle",
+      "fulfillmentType": "manual"
+    }
+  },
+  {
+    "id": "achilles-candle",
+    "name": "Achilles Candle",
+    "url": "https://kena-lean-launch.webflow.io/product-page?slug=achilles-candle",
+    "price": 40.00,
+    "image": "",
+    "description": "Coconut–soy candle inspired by Achilles.",
+    "stackable": true,
+    "shippable": true,
+    "taxable": true,
+    "maxQuantity": 10,
+    "metadata": {
+      "slug": "achilles-candle",
+      "fulfillmentType": "manual"
+    }
+  },
+  {
+    "id": "go-after-it-minimalist-wallpaper",
+    "name": "Go After It – Minimalist Wallpaper",
+    "url": "https://kena-lean-launch.webflow.io/product-page?slug=go-after-it-minimalist-wallpaper",
+    "price": 4.97,
+    "image": "",
+    "description": "High-res digital wallpaper download.",
+    "stackable": true,
+    "shippable": false,
+    "taxable": false,
+    "maxQuantity": 10,
+    "metadata": {
+      "slug": "go-after-it-minimalist-wallpaper",
+      "fulfillmentType": "manual"
     }
   }
 ]
