@@ -1,12 +1,41 @@
 [
   {
-    "id": "hustle-coffee-mug",
-    "price": 18.00,
-    "url": "https://kena-lean-launch.webflow.io/product-page?slug=hustle-coffee-mug"
+    "id": "tobacco-vanille-candle",              // must match data-item-id
+    "name": "Tobacco Vanille Candle",
+    "url": "https://kena-lean-launch.webflow.io/product-page?slug=tobacco-vanille-candle",
+    "price": 38.00,
+    "image": "https://cdn.yoursite.com/img/tobacco-vanille-hero.jpg",
+    "description": "Coconut-soy candle. Notes: tobacco leaf, vanilla, spice.",
+    "stackable": true,
+    "shippable": true,
+    "taxable": true,
+    "maxQuantity": 10,
+    "metadata": {
+      "slug": "tobacco-vanille-candle",
+      "sanityId": "prod_abc123",
+      "fulfillmentType": "manual"               // "manual" | "printful"
+    }
   },
   {
-    "id": "tobacco-vanille",
-    "price": 35.00,
-    "url": "https://kena-lean-launch.webflow.io/product-page?slug=tobacco-vanille"
+    "id": "hustle-coffee-mug",
+    "name": "Hustle Coffee Mug",
+    "url": "https://kena-lean-launch.webflow.io/product-page?slug=hustle-coffee-mug",
+    "price": 18.00,
+    "image": "https://cdn.yoursite.com/img/hustle-mug-hero.jpg",
+    "description": "11oz ceramic mug.",
+    "stackable": true,
+    "shippable": true,
+    "taxable": true,
+    "variants": [
+      { "id": "mug-11oz", "name": "11 oz", "price": 18.00,
+        "metadata": { "printfulVariantId": "10516680", "fulfillmentType": "printful" } },
+      { "id": "mug-15oz", "name": "15 oz", "price": 22.00,
+        "metadata": { "printfulVariantId": "10516681", "fulfillmentType": "printful" } }
+    ],
+    "metadata": {
+      "slug": "hustle-coffee-mug",
+      "sanityId": "prod_def456",
+      "fulfillmentType": "printful"             // default for the base item
+    }
   }
 ]
