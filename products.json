@@ -3,7 +3,7 @@
     "id": "tobacco-vanille-candle",              // must match data-item-id
     "name": "Tobacco Vanille Candle",
     "url": "https://kena-lean-launch.webflow.io/product-page?slug=tobacco-vanille-candle",
-    "price": 38.00,
+    "price": 35.00,
     "image": "https://cdn.yoursite.com/img/tobacco-vanille-hero.jpg",
     "description": "Coconut-soy candle. Notes: tobacco leaf, vanilla, spice.",
     "stackable": true,
