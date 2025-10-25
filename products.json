@@ -1,6 +1,6 @@
 [
   {
-    "id": "tobacco-vanille-candle",              // must match data-item-id
+    "id": "tobacco-vanille-candle",              
     "name": "Tobacco Vanille Candle",
     "url": "https://kena-lean-launch.webflow.io/product-page?slug=tobacco-vanille-candle",
     "price": 35.00,
@@ -13,7 +13,7 @@
     "metadata": {
       "slug": "tobacco-vanille-candle",
       "sanityId": "prod_abc123",
-      "fulfillmentType": "manual"               // "manual" | "printful"
+      "fulfillmentType": "manual"               
     }
   },
   {
@@ -35,7 +35,7 @@
     "metadata": {
       "slug": "hustle-coffee-mug",
       "sanityId": "prod_def456",
-      "fulfillmentType": "printful"             // default for the base item
+      "fulfillmentType": "printful"             
     }
   }
 ]
